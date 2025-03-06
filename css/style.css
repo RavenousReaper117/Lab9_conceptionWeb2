@@ -12,3 +12,105 @@ html {
 *:after {
     box-sizing: inherit;
 }
+
+/*------------------------------------------------------------------------------
+   Base
+------------------------------------------------------------------------------*/
+
+body {
+    font-family: "Averia Serif Libre", serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+.wrapper{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/*------------------------------------------------------------------------------
+   Mise en page
+------------------------------------------------------------------------------*/
+/*--------------*/
+/*--- HEADER ---*/
+/*--------------*/
+header {
+    max-height: 66px;
+    background-color: #379AE3;
+    position: sticky;
+}
+header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header .wrapper ul {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+
+header .wrapper ul li:hover {
+    color: white;
+}
+
+header h1 {
+    font: 700 1.5rem "Merriweather", serif;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header li {
+    font: 700 1.05rem "Roboto", sans-serif;
+}
+
+header button {
+    width: 111px;
+    height: 36px;
+    border-radius: 5px;
+    border: 3px solid black; 
+    font: 700 1.05rem "Roboto", sans-serif;
+}
+/*--------------*/
+/*--- HERO -----*/
+/*--------------*/
+
+.hero {
+    height: 637px;
+    background-image: url("../images/Hero\ image\ droite\(1\).jpg");
+       background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero .wrapper {
+
+}
+
+.hero .boite {
+    height: 437px;
+    width: 550px;
+    background-color: rgba(0, 0, 0, 0.70);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 750px;
+    
+}
+
+.hero .boite h1 {
+    color: #E67522;
+}
