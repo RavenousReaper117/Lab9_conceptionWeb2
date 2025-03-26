@@ -9,15 +9,34 @@
 
 /* Exercice 02 */
 
+.wrapper .exercice02 blockquote::first-letter {
+
+    color: red;
+    font-size: 5rem;
+}
 
 /* Exercice 03 */
 
+.wrapper .exercice03 blockquote::first-line {
+    color: red;
+    font-weight: bold;
+}
 
 /* Exercice 04 */
 
+.wrapper .exercice04 p:last-child {
+    color: red;
+}
 
 /* Exercice 05 */
-
+a[href^="https://"]::after {
+    content: 'open_in_new'; 
+    display: inline-block;
+    font-family: 'Material Icons';
+    font-size: 1.4rem;
+    line-height: 1;
+    margin-left: 5px;
+}
 
 /* Exercice 06 */
 
