@@ -40,19 +40,34 @@ a[href^="https://"]::after {
 
 /* Exercice 06 */
 
+.wrapper .exercice06 li:nth-child(even){
+    background-color: red;
+}
 
 /* Exercice 07 */
 
+.wrapper .exercice07 li:nth-child(odd){
+    background-color: red;
+}
 
 /* Exercice 08 */
 
+.wrapper .exercice08 li:nth-child(3), .wrapper .exercice08 li:nth-child(2), .wrapper .exercice08 li:nth-child(1){
+    background-color: red;
+}
 
 /* Exercice 09 */
+
+.wrapper .exercice09 li:nth-child(99){
+    background-color: red;
+}
 
 
 /* Exercice 10 */
 
-
+.wrapper .exercice10 li:nth-child(n+14):nth-child(-n+23) {
+    background-color: red;
+}
 /* Exercice 11 */
 
 
