@@ -70,13 +70,21 @@ a[href^="https://"]::after {
 }
 /* Exercice 11 */
 
+.wrapper .exercice11 ul{
+    border: 3px red solid ;
+}
 
 /* Exercice 12 */
 
+.wrapper .exercice12 > ul {
+    border: 3px red solid;
+}
 
 /* Exercice 13 */
 
-
+.wrapper .exercice13 img[src$=".jpg"] {
+    border: 3px solid red;
+}
 /* Exercice 14 */
 
 
