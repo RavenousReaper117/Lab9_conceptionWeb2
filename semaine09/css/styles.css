@@ -87,19 +87,40 @@ a[href^="https://"]::after {
 }
 /* Exercice 14 */
 
+.wrapper a:hover{
+    background-color: #BF2A2A;
+    border-bottom: 3px solid black;
+    color: black;
+}
 
 /* Exercice 15 */
 
+h2::selection {
+    background-color: black;
+    color: white;
+}
+
+p::selection {
+    background-color: gray;
+    color: white;
+}
 
 /* Exercice 16 */
-
+.wrapper .exercice16 p:not([lang="fr"]) {
+    color: red;
+}
 
 /* Exercice 17 */
+input:checked + label {
+    color: red;
+}
 
 
 /* Exercice 18 */
 
-
+.last-letter {
+    color: #640101;
+}
 
 
 
